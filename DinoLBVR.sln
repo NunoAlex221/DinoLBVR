@@ -1,7 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICO.TobSupport", "PICO.TobSupport.csproj", "{ACB9EE32-7794-B342-F39C-C383F3AFBC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.PICOSupport", "Unity.XR.OpenXR.Features.PICOSupport.csproj", "{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICO.Platform", "PICO.Platform.csproj", "{E7143208-6657-DCB9-AA70-D98FF6B801BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICO.Platform.Editor", "PICO.Platform.Editor.csproj", "{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.PICOSupport.Editor", "Unity.XR.OpenXR.Features.PICOSupport.Editor.csproj", "{912C5281-378A-2C63-4A8D-741849101546}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7071FBDA-9FFD-9775-A568-8863A633BE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXRPico", "Unity.XR.OpenXRPico.csproj", "{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9E977B04-DBC3-C221-E5C3-BFA3085328C8}"
 EndProject
@@ -11,10 +23,34 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB9EE32-7794-B342-F39C-C383F3AFBC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB9EE32-7794-B342-F39C-C383F3AFBC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB9EE32-7794-B342-F39C-C383F3AFBC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB9EE32-7794-B342-F39C-C383F3AFBC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7143208-6657-DCB9-AA70-D98FF6B801BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7143208-6657-DCB9-AA70-D98FF6B801BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7143208-6657-DCB9-AA70-D98FF6B801BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7143208-6657-DCB9-AA70-D98FF6B801BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912C5281-378A-2C63-4A8D-741849101546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912C5281-378A-2C63-4A8D-741849101546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912C5281-378A-2C63-4A8D-741849101546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912C5281-378A-2C63-4A8D-741849101546}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7071FBDA-9FFD-9775-A568-8863A633BE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7071FBDA-9FFD-9775-A568-8863A633BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7071FBDA-9FFD-9775-A568-8863A633BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7071FBDA-9FFD-9775-A568-8863A633BE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E977B04-DBC3-C221-E5C3-BFA3085328C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E977B04-DBC3-C221-E5C3-BFA3085328C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E977B04-DBC3-C221-E5C3-BFA3085328C8}.Release|Any CPU.ActiveCfg = Release|Any CPU

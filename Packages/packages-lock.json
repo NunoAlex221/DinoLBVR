@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.endel.nativewebsocket": {
+      "version": "https://github.com/endel/NativeWebSocket.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1d8b49b3fee41c09a98141f1f1a5e4db47e14229"
+    },
+    "com.firstgeargames.fishnet": {
+      "version": "https://github.com/FirstGearGames/FishNet.git?path=Assets/FishNet#4.3.8",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "8eb207d2c62ea67467bbb265bed0ea28165b9089"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.5",
       "depth": 0,
@@ -16,6 +32,19 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cloud.gltfast": {
+      "version": "6.7.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.collections": "1.5.1",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -36,6 +65,13 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework.performance": "3.0.3"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -74,7 +110,7 @@
     },
     "com.unity.mathematics": {
       "version": "1.3.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -90,6 +126,13 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -144,6 +187,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.0.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.0.3",
       "depth": 1,
@@ -152,6 +202,16 @@
         "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.searcher": "4.9.2"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.7.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.4.5",
@@ -204,6 +264,121 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.core-utils": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.hands": {
+      "version": "1.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.interaction.toolkit": {
+      "version": "2.5.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.inputsystem": "1.7.0",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.10"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.4.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.openxr": {
+      "version": "1.14.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.openxr.picoxr": {
+      "version": "file:C:/Users/USER/Desktop/Unity OpenXR IntegrationSDK-1.4.0-20250407",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.openxr": "1.8.2"
+      }
+    },
+    "com.xroam.sdk": {
+      "version": "https://x-token-auth:ATCTT3xFfGN09K34jbJVK1r7cgoRkAlcy28jfWDqAipA0pqGyH63p41A-PDZ_YxrJ0CPMUdofAkbQ5mhTUn7GdjLXTXN56ZJ7bl3POjWDtLuTJQ3bAGFmPGr9i_OVcG2fFbD35YAUcmaaGIoZmPoNv2zDGNiZjL-uIH3-HtNvOdAHREqanAnQ90=E645374A@bitbucket.org/antiloop-studio/com.xroam.sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.openxr": "1.14.3"
+      },
+      "hash": "c47e51a524e8104ced87f8dc1defbc9dc39feab9"
+    },
+    "com.xroam.sdk-core": {
+      "version": "https://x-token-auth:ATCTT3xFfGN03IS7ejjVSYAPhy8XzirsV4Xcy7LL44ik1HxtxQuEwqh0JHiSJUigm8YfyPzrPj390j5B2cx4DKlPPiyI9CPhZKUoZDssuYUvOysGvluoxlBOu7yTe1Dm09svyzf3TMjvr8O5d05vQHDhtoQfs8_VYWg_Kh8DFrSkeQUMlZnd7zo=6B3C81C4@bitbucket.org/antiloop-studio/com.xroam.sdk-core.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.hands": "1.3.0",
+        "com.unity.xr.interaction.toolkit": "2.5.2",
+        "com.unity.xr.management": "4.4.1",
+        "com.unity.xr.openxr": "1.10.0",
+        "com.unity.shadergraph": "14.0.8",
+        "com.unity.splines": "2.5.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.cloud.gltfast": "6.7.1"
+      },
+      "hash": "90c1c60c1a20be85844ba643e227a64f09903d8d"
+    },
+    "com.xroam.sdk-dashboard": {
+      "version": "https://x-token-auth:ATCTT3xFfGN0hl3aI96fNdCtKV8T4a8z6W6JszRxYgIQKhV2b8d_n2ptrnLQRcN3RQosseJ6GqkYrvGjo9yMosAICuK0kNS43ZSHT2bNyOjFDWo_g6wmEHq77tSID5XryAo8dJSnzwJytiTugPqClRL8yshLLZ9GA0TJRoNNZsPTt1ydQ7xXIoY=AC9256A4@bitbucket.org/antiloop-studio/com.xroam.sdk-dashboard.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.endel.nativewebsocket": "1.1.4"
+      },
+      "hash": "e53e51c1aed0d4f05f76e65d00c960d88db473b1"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
