@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
+  m_Name: Room 2
+  m_EditorClassIdentifier: 
+  _id: bab37313-568f-4359-9076-5849d4ec37bd
+  _name: Room 2
+  _mainScene: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.0_MultiRoom_Overlay_Master.unity
+  _exposed: 0
+  _exposedName: Room 2
+  _scenesToLoad:
+  - Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.3_MultiRoom_Overlay_Room_2.unity
+  _stateActions:
+  - Id: a9ba7740-842f-4d7b-9f36-be08aa11aa54
+    Name: SIMPLE ACTION PLAY LOOPABLE TIMELINE
+    Scene: 2.3_MultiRoom_Overlay_Room_2
+    Moment: 1

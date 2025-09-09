@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
+  m_Name: Cave Corridor
+  m_EditorClassIdentifier: 
+  _id: ef913597-899c-461a-a63d-071cbd61a6ec
+  _name: Cave Corridor
+  _mainScene: Assets/Scenes/DinoTestScenes/IvoTestScene.unity
+  _exposed: 1
+  _exposedName: Cave Corridor
+  _scenesToLoad:
+  - Assets/Scenes/DinoTestScenes/Dino_Jungle.unity
+  - Assets/Scenes/DinoTestScenes/Dino_CaveCorridor.unity
+  - Assets/Scenes/DinoTestScenes/Dino_SkyFlight.unity
+  _stateActions: []
