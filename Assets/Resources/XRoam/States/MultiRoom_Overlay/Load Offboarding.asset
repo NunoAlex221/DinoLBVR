@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
+  m_Name: Load Offboarding
+  m_EditorClassIdentifier: 
+  _id: d2f39322-04cd-4bc4-aed1-daa42bc020e0
+  _name: Load Offboarding
+  _mainScene: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.0_MultiRoom_Overlay_Master.unity
+  _exposed: 0
+  _exposedName: Load OffBoarding
+  _scenesToLoad:
+  - Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.9_MultiRoom_Overlay_Room_8.unity
+  - Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.10_MultiRoom_Overlay_Offboarding.unity
+  _stateActions: []
