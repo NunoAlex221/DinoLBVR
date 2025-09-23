@@ -1038,8 +1038,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.16133118, y: 3, z: 1.5631342}
-  m_Center: {x: -16.2454, y: 0, z: -5.7097087}
+  m_Size: {x: 1.2757549, y: 2.1716268, z: 1.1592689}
+  m_Center: {x: -14.274625, y: 1.0907353, z: -4.9414616}
 --- !u!1 &657335267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,7 +1267,6 @@ Transform:
   - {fileID: 2023296124}
   - {fileID: 2133013022}
   - {fileID: 2038996667}
-  - {fileID: 1127514980}
   - {fileID: 1828227656}
   - {fileID: 1665309471}
   - {fileID: 857520321}
@@ -1778,7 +1777,7 @@ GameObject:
   - component: {fileID: 857520321}
   - component: {fileID: 857520322}
   m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 07
+  m_Name: ELEMENT ACTIVATOR 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1965,7 +1964,7 @@ GameObject:
   - component: {fileID: 995842569}
   - component: {fileID: 995842570}
   m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 08 - OFFBOARDING
+  m_Name: ELEMENT ACTIVATOR 07 - OFFBOARDING
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2166,59 +2165,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072806623}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1127514979
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1127514980}
-  - component: {fileID: 1127514981}
-  m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 04
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1127514980
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127514979}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1832019287}
-  m_Father: {fileID: 703741651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1127514981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127514979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _activationType: 1
-  _elements:
-  - {fileID: 1832019286}
-  _progressiveActivation: 1
-  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _statesIds:
-  - 60087b3d-a839-46d5-9772-8808adbf00fd
-  _disableOnStateChanged: 1
 --- !u!1001 &1180086763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2653,7 +2599,7 @@ GameObject:
   - component: {fileID: 1665309471}
   - component: {fileID: 1665309472}
   m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 06
+  m_Name: ELEMENT ACTIVATOR 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2757,7 +2703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1713795373
 Transform:
   m_ObjectHideFlags: 0
@@ -2922,7 +2868,7 @@ GameObject:
   - component: {fileID: 1828227656}
   - component: {fileID: 1828227657}
   m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 05
+  m_Name: ELEMENT ACTIVATOR 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2962,135 +2908,8 @@ MonoBehaviour:
   _progressiveActivation: 1
   _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
   _statesIds:
-  - ef913597-899c-461a-a63d-071cbd61a6ec
+  - 60087b3d-a839-46d5-9772-8808adbf00fd
   _disableOnStateChanged: 1
---- !u!1 &1832019286
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1832019287}
-  - component: {fileID: 1832019291}
-  - component: {fileID: 1832019290}
-  - component: {fileID: 1832019289}
-  - component: {fileID: 1832019288}
-  m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - CAVE CORRIDOR'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1832019287
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832019286}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1127514980}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1832019288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832019286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _stateId: ef913597-899c-461a-a63d-071cbd61a6ec
-  _applyChangeToServer: 0
-  _cleanChange: 0
---- !u!114 &1832019289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832019286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enabled: 1
-  color: {r: 1, g: 0.9254292, b: 0, a: 1}
---- !u!114 &1832019290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832019286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _id: 61d85c3a-8921-4581-9236-975c8066742a
-  _bodyPartType: 1
-  _usersGroupLayerMask: -1
-  _synchronized: 0
-  _oneUseOnly: 0
-  OnEnterActions:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1832019288}
-        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
-        m_MethodName: ChangeState
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnExitActions:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAllUsersEnterActions:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAllUsersExitActions:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!65 &1832019291
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832019286}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.32744217, y: 3, z: 1.5631342}
-  m_Center: {x: -12.249273, y: 0, z: -5.7097087}
 --- !u!1 &1874883407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,8 +3507,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.25598383, y: 3, z: 1.5881748}
-  m_Center: {x: -6.1041527, y: 0, z: -4.934655}
+  m_Size: {x: 0.6756592, y: 2.2626858, z: 1.7231245}
+  m_Center: {x: -5.5358944, y: 0.9772009, z: -4.7202125}
 --- !u!1 &2133013021
 GameObject:
   m_ObjectHideFlags: 0
