@@ -9,11 +9,8 @@ public class StartBehaviour : MonoBehaviour
     void Start()
     {
         StateMachineService.Instance.ChangeState(_state.Id, false);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
+
+    // Update is called once per frame
