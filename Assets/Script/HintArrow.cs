@@ -1,10 +1,24 @@
 using UnityEngine;
-
+using XRoam.Core.StateMachine;
+using XRoam.Services.StateMachine;
 public class EnableAfterDelay : MonoBehaviour
 {
-    public GameObject target;   // drag the Path parent here
-    public float delaySeconds = 10f;
+    public float delaySeconds;
 
-    void Start() => Invoke(nameof(Show), delaySeconds);
-    void Show() { if (target) target.SetActive(true); }
+    public Transform target;
+    [SerializeField] private State _state;
+    [SerializeField] private PortalSphere effect;
+    void Start()
+    {
+        Invoke(nameof(ChangeState), delaySeconds);
+        effect = GameObject.FindGameObjectWithTag("Portal").GetComponent<PortalSphere>();
+    }
+
+    public void ChangeState()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+        if (effect) effect.PlayAt(target);
+
+        StateMachineService.Instance.ChangeState(_state.Id, false);
+    }
 }

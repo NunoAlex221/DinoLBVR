@@ -942,7 +942,7 @@ Transform:
   m_GameObject: {fileID: 542174034}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
+  m_LocalPosition: {x: 2.05, y: 0, z: 1.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2592,6 +2592,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8061291696665209736, guid: 412cfbd98fc7b0f4796e3807dbbc6529, type: 3}
+      propertyPath: m_TagString
+      value: Portal
+      objectReference: {fileID: 0}
     - target: {fileID: 8069133008405377734, guid: 412cfbd98fc7b0f4796e3807dbbc6529, type: 3}
       propertyPath: SizeModule.enabled
       value: 0
@@ -2927,7 +2931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1713795373
 Transform:
   m_ObjectHideFlags: 0
@@ -3482,7 +3486,7 @@ MonoBehaviour:
   _progressiveActivation: 1
   _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
   _statesIds:
-  - 1f67e93c-626f-4d70-90e6-24b1cf0bc914
+  - c9028d63-eea4-4568-b051-cc79d2f61037
   _disableOnStateChanged: 1
 --- !u!1 &2045527848
 GameObject:
@@ -3635,7 +3639,7 @@ Transform:
   m_GameObject: {fileID: 2121254555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
+  m_LocalPosition: {x: 1.9, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3698,18 +3702,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 2121254557}
           m_ObjectArgumentAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SimpleArrow, Assembly-CSharp
-        m_MethodName: Hide
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
