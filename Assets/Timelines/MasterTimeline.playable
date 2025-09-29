@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8944918744558584676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b258980d762a41b348d1dda651011, type: 3}
+  m_Name: StateClip
+  m_EditorClassIdentifier: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  ResumeFromAdminUI: 0
+  Preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
+  StateId: c9028d63-eea4-4568-b051-cc79d2f61037
+  PauseOnFinish: 1
+  AutomaticResume: 0
+  PauseDuration: 0
+  ResumeType: 0
+  JumpPreset: {fileID: 0}
+  JumpState: 
 --- !u!114 &-7641996738057924466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,7 +212,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Exterior Site
   - m_Version: 1
-    m_Start: 2.2
+    m_Start: 2.5
     m_ClipIn: 0
     m_Asset: {fileID: 277442056250750969}
     m_Duration: 1.2999999999999998
@@ -223,7 +245,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Jungle Bridge
   - m_Version: 1
-    m_Start: 3.5
+    m_Start: 3.8000000000000016
     m_ClipIn: 0
     m_Asset: {fileID: 2258912493152227651}
     m_Duration: 1.5999999999999996
@@ -232,7 +254,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -256,7 +278,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Jungle Rex
   - m_Version: 1
-    m_Start: 5.1
+    m_Start: 5.4
     m_ClipIn: 0
     m_Asset: {fileID: 1771427033966289119}
     m_Duration: 1.1500000000000004
@@ -264,7 +286,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7641996738057924466}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 0
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -289,7 +311,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sky Flight
   - m_Version: 1
-    m_Start: 6.25
+    m_Start: 6.550000000000001
     m_ClipIn: 0
     m_Asset: {fileID: 1481081151926635081}
     m_Duration: 3.1999999999999993
@@ -298,7 +320,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -322,7 +344,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Deep Ocean
   - m_Version: 1
-    m_Start: 9.45
+    m_Start: 9.749999999999996
     m_ClipIn: 0
     m_Asset: {fileID: 9050416845821433901}
     m_Duration: 1
@@ -330,7 +352,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7641996738057924466}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 0
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -355,7 +377,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Exterior Site 2
   - m_Version: 1
-    m_Start: 10.45
+    m_Start: 10.749999999999996
     m_ClipIn: 0
     m_Asset: {fileID: -2181290276774077597}
     m_Duration: 0.5
@@ -387,6 +409,57 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Offboarding
+  - m_Version: 1
+    m_Start: 2.2
+    m_ClipIn: 0
+    m_Asset: {fileID: -8944918744558584676}
+    m_Duration: 0.2999999999999998
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -7641996738057924466}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Black Room
   m_Markers:
     m_Objects: []
 --- !u!114 &-6914468723241066607
@@ -495,7 +568,7 @@ MonoBehaviour:
   ResumeFromAdminUI: 0
   Preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
   StateId: 60087b3d-a839-46d5-9772-8808adbf00fd
-  PauseOnFinish: 0
+  PauseOnFinish: 1
   AutomaticResume: 0
   PauseDuration: 0
   ResumeType: 0
@@ -607,7 +680,7 @@ MonoBehaviour:
   ResumeFromAdminUI: 0
   Preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
   StateId: e6864789-efb3-4cbb-91f3-23a9a8a85ead
-  PauseOnFinish: 0
+  PauseOnFinish: 1
   AutomaticResume: 0
   PauseDuration: 0
   ResumeType: 0
