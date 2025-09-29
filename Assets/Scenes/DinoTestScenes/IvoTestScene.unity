@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 165804793}
   - component: {fileID: 165804792}
   m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - DEEP OCEAN'
+  m_Name: '[Activator] STATE TRIGGER - SKY FLIGHT'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,8 +339,8 @@ Transform:
   m_GameObject: {fileID: 165804790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 28.734, y: 2.681, z: -6.233}
+  m_LocalScale: {x: 2.8194, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1665309471}
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _stateId: a3970cb3-9ed9-4a9e-a8e5-7f31295968a8
+  _stateId: 1b1d4807-07b9-4fca-97ec-a173665ce37c
   _applyChangeToServer: 0
   _cleanChange: 0
 --- !u!114 &165804793
@@ -913,7 +913,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &542174034
+--- !u!1 &562036872
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -921,56 +921,130 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 542174035}
-  - component: {fileID: 542174039}
-  - component: {fileID: 542174038}
-  - component: {fileID: 542174037}
-  - component: {fileID: 542174036}
+  - component: {fileID: 562036875}
+  - component: {fileID: 562036874}
+  - component: {fileID: 562036873}
   m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - SKY FLIGHT'
+  m_Name: Master Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &542174035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542174034}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.05, y: 0, z: 1.35}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1828227656}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &542174036
+  m_IsActive: 1
+--- !u!114 &562036873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542174034}
+  m_GameObject: {fileID: 562036872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485017758eaabc247bddc50d95293dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInAdminUI: 0
+--- !u!320 &562036874
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562036872}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 86c1c43af69cc2049b67dd42bcc32c1c, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 0
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1682672019745893454, guid: 71a1b9e9924a802438e3007accb00b85, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - 7236c9c51d135344fb6fcdb102edd2e4: {fileID: 0}
+    - 40220a5527cf2d249902a1b757aa9330: {fileID: 0}
+    - 7646f1b30cfb2bf4dadca0b4d3c1f96b: {fileID: 0}
+    - a8c94c840f7e77a4fa2048b1f7b5065d: {fileID: 0}
+    - cb6e204146bdd3047bb6940bbb393600: {fileID: 0}
+    - 024e402b5e5961b46a130bb9aada2f4f: {fileID: 0}
+    - fcb22890b35b0164ab32f63a231f402b: {fileID: 0}
+    - ec9b91573af99b44fb0a9808333cecc6: {fileID: 0}
+    - adcff681fe2ad5a479c9c6e660565888: {fileID: 0}
+--- !u!4 &562036875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562036872}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &574194480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 574194481}
+  - component: {fileID: 574194485}
+  - component: {fileID: 574194484}
+  - component: {fileID: 574194483}
+  - component: {fileID: 574194482}
+  m_Layer: 0
+  m_Name: '[Activator] STATE TRIGGER - REX'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &574194481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574194480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.39452064, z: -0, w: 0.91888714}
+  m_LocalPosition: {x: -4.656, y: 1.3, z: 8.804}
+  m_LocalScale: {x: 1, y: 1, z: 0.72922}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639410469}
+  m_LocalEulerAnglesHint: {x: 0, y: -46.472, z: 0}
+--- !u!114 &574194482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574194480}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _stateId: 1b1d4807-07b9-4fca-97ec-a173665ce37c
+  _stateId: e6864789-efb3-4cbb-91f3-23a9a8a85ead
   _applyChangeToServer: 0
   _cleanChange: 0
---- !u!114 &542174037
+--- !u!114 &574194483
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542174034}
+  m_GameObject: {fileID: 574194480}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
@@ -978,19 +1052,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enabled: 1
   color: {r: 1, g: 0.9254292, b: 0, a: 1}
---- !u!114 &542174038
+--- !u!114 &574194484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542174034}
+  m_GameObject: {fileID: 574194480}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 118c7efd-b613-4d25-9f08-73d1a2ea34d1
+  _id: 9fd2aca0-eb77-460e-9f2f-914890d552be
   _bodyPartType: 1
   _usersGroupLayerMask: -1
   _synchronized: 0
@@ -998,7 +1072,7 @@ MonoBehaviour:
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 542174036}
+      - m_Target: {fileID: 574194482}
         m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
         m_MethodName: ChangeState
         m_Mode: 1
@@ -1019,13 +1093,13 @@ MonoBehaviour:
   OnAllUsersExitActions:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &542174039
+--- !u!65 &574194485
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542174034}
+  m_GameObject: {fileID: 574194480}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1040,6 +1114,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2757549, y: 2.1716268, z: 1.1592689}
   m_Center: {x: -14.274625, y: 1.0907353, z: -4.9414616}
+--- !u!1 &639410468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 639410469}
+  - component: {fileID: 639410470}
+  m_Layer: 0
+  m_Name: ELEMENT ACTIVATOR 04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &639410469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639410468}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 574194481}
+  m_Father: {fileID: 703741651}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &639410470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639410468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activationType: 1
+  _elements:
+  - {fileID: 574194480}
+  _progressiveActivation: 1
+  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
+  _statesIds:
+  - 60087b3d-a839-46d5-9772-8808adbf00fd
+  _disableOnStateChanged: 1
 --- !u!1 &657335267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,7 +1181,7 @@ GameObject:
   - component: {fileID: 657335270}
   - component: {fileID: 657335269}
   m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - DIGGING SITE 2'
+  m_Name: '[Activator] STATE TRIGGER - DEEP OCEAN'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1069,8 +1196,8 @@ Transform:
   m_GameObject: {fileID: 657335267}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.8303, y: 2.88, z: 3.93}
+  m_LocalScale: {x: 3.6462562, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 857520321}
@@ -1088,7 +1215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _stateId: 098244aa-1129-42f0-844d-3f4a8519d5c8
+  _stateId: a3970cb3-9ed9-4a9e-a8e5-7f31295968a8
   _applyChangeToServer: 0
   _cleanChange: 0
 --- !u!114 &657335270
@@ -1267,10 +1394,11 @@ Transform:
   - {fileID: 2023296124}
   - {fileID: 2133013022}
   - {fileID: 2038996667}
-  - {fileID: 1828227656}
+  - {fileID: 639410469}
   - {fileID: 1665309471}
   - {fileID: 857520321}
   - {fileID: 995842569}
+  - {fileID: 1453185414}
   m_Father: {fileID: 1685325027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &706185082
@@ -1653,7 +1781,7 @@ GameObject:
   - component: {fileID: 844070066}
   - component: {fileID: 844070065}
   m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - OFFBOARDING'
+  m_Name: '[Activator] STATE TRIGGER - DIGGING SITE 2'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1668,7 +1796,7 @@ Transform:
   m_GameObject: {fileID: 844070063}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
+  m_LocalPosition: {x: -4.12, y: 1.5, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1964,7 +2092,7 @@ GameObject:
   - component: {fileID: 995842569}
   - component: {fileID: 995842570}
   m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 07 - OFFBOARDING
+  m_Name: ELEMENT ACTIVATOR 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2006,6 +2134,133 @@ MonoBehaviour:
   _statesIds:
   - 098244aa-1129-42f0-844d-3f4a8519d5c8
   _disableOnStateChanged: 1
+--- !u!1 &1009306378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1009306379}
+  - component: {fileID: 1009306383}
+  - component: {fileID: 1009306382}
+  - component: {fileID: 1009306381}
+  - component: {fileID: 1009306380}
+  m_Layer: 0
+  m_Name: '[Activator] STATE TRIGGER - OFFBOARDING'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1009306379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009306378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9, y: 1.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1453185414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1009306380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009306378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
+  _stateId: 309f74c7-bc44-4413-a452-7cc8225dd676
+  _applyChangeToServer: 0
+  _cleanChange: 0
+--- !u!114 &1009306381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009306378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enabled: 1
+  color: {r: 1, g: 0.9254292, b: 0, a: 1}
+--- !u!114 &1009306382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009306378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: f7ea516d-3f74-491d-bcec-2c32b3903be4
+  _bodyPartType: 1
+  _usersGroupLayerMask: -1
+  _synchronized: 0
+  _oneUseOnly: 0
+  OnEnterActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1009306380}
+        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
+        m_MethodName: ChangeState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersEnterActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &1009306383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009306378}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23264158, y: 3, z: 1.5881748}
+  m_Center: {x: -0.21389872, y: 0, z: -4.934655}
 --- !u!1 &1043923727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,6 +2823,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _state: {fileID: 11400000, guid: 910707bf5860ab84792446e982550f7a, type: 2}
+--- !u!1 &1453185413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453185414}
+  - component: {fileID: 1453185415}
+  m_Layer: 0
+  m_Name: ELEMENT ACTIVATOR 08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1453185414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453185413}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1009306379}
+  m_Father: {fileID: 703741651}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453185415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453185413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activationType: 1
+  _elements:
+  - {fileID: 1009306378}
+  _progressiveActivation: 1
+  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
+  _statesIds:
+  - 309f74c7-bc44-4413-a452-7cc8225dd676
+  _disableOnStateChanged: 1
 --- !u!1001 &1535986878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2931,7 +3239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1713795373
 Transform:
   m_ObjectHideFlags: 0
@@ -3085,59 +3393,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14755464, y: 3, z: 1.4900517}
   m_Center: {x: -0.61896753, y: 0, z: -0.22865653}
---- !u!1 &1828227655
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1828227656}
-  - component: {fileID: 1828227657}
-  m_Layer: 0
-  m_Name: ELEMENT ACTIVATOR 04
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1828227656
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828227655}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 542174035}
-  m_Father: {fileID: 703741651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1828227657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828227655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _activationType: 1
-  _elements:
-  - {fileID: 542174034}
-  _progressiveActivation: 1
-  _preset: {fileID: 11400000, guid: bc27778ebbcb8eb43a95e17c77daef67, type: 2}
-  _statesIds:
-  - 60087b3d-a839-46d5-9772-8808adbf00fd
-  _disableOnStateChanged: 1
 --- !u!1 &1874883407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,7 +3879,7 @@ GameObject:
   - component: {fileID: 2121254558}
   - component: {fileID: 2121254557}
   m_Layer: 0
-  m_Name: '[Activator] STATE TRIGGER - JUNGLE'
+  m_Name: '[Activator] STATE TRIGGER - DINO BRIDGE'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3639,7 +3894,7 @@ Transform:
   m_GameObject: {fileID: 2121254555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 0, z: -1}
+  m_LocalPosition: {x: 1.927, y: 1.18, z: -1.052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3794,6 +4049,7 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 562036875}
   - {fileID: 203844589}
   - {fileID: 1180086763}
   - {fileID: 1685325027}
