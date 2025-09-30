@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: RM_WalkableAreas
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 34f556d724b1bbf4097ca6220db2c581, type: 3}
+  title: WALKABLE AREAS
+  prevReadme: {fileID: 0}
+  nextReadme: {fileID: 0}
+  sections:
+  - name: Header -MAIN COMP...
+    heading: MAIN COMPONENTS
+    text: "MASTER MIXER WALKEABLE: Audio mixer that modifies audio in and out when
+      fading to Alternate Content\n\nACTIVATORS: The activators of each WalkableArea
+      that activate in their respective states and the custom events that trigger
+      when leaving the area or finished the time defined in the state timer.\n\nALTERNATE
+      CONTENTS: The alternate contents visual of each State WalkableArea\n\nSTATE
+      TIMERS: The timers that, on finished, turn on the alternate content and the
+      audio fade for each state that needs it.\n\nCUSTOM EVENTS: There's 2 main custom
+      events:\r\n\r\n\t- Left Walkable Area: Indicates if someone left the walkable
+      area.\r\n\t- Timer Walkable Area: Indicates if the user took more time to move
+      than we expected to and defined in the State Timers."
+    linkText: 
+    url: 
+  - name: Header -HOW TO IM...
+    heading: HOW TO IMPLEMENT WALKABLE AREAS
+    text: '- Follow the following steps in the numbered order.
+
+
+      - "[STATE]"
+      is just a placeholder, change it to the State name it will affect.
+
+
+      -
+      To do this for each state you need to duplicate the "ACTIVATOR_[STATE]" and
+      (if needed/wanted) the "STATE TIMER_[STATE]".'
+    linkText: 
+    url: 
+  - name: Header -1. ACTIVA...
+    heading: '1. ACTIVATOR_[STATE]'
+    text: "\t1.1. Set the \"Element Activator\" \"Activation Type\" to \"State\"
+      if it's not.\n\n\t1.2. Add the \"[STATE]\" game object to the \"Elements\".
+      You'll see it will be renamed to \"[Activator] [STATE]\".\n\n\t1.3. In the
+      \"State Properties\" section, turn ON \"Disable On State Changed\".\n\n\t1.4.
+      Right below, in \"Preset\" add the State Machine Preset of your Project\n\n\t1.5.
+      Then, you'll be able to add the states you want this WalkableArea be enabled
+      in by just clicking the \"+\" and changing the state to the desired one."
+    linkText: 
+    url: 
+  - name: Header -2.  MASTE...
+    heading: 2.  MASTER MIXER WALKABLE
+    text: "\t2.1. In your Master/Main Audio Mixer of the project, you need to create
+      an Exposed Parameter of the \"Master\" volume by clicking it, Right click on
+      the \"Volume\" paramter and click on \"Expose 'Volume of (Master)' to script\".\n\n\t2.2.
+      In the Audio Mixer window, in \"Exposed Paramters\" change the name of the
+      one you just created to \"MASTER VOLUME\" or other that you want.\n\n\t2.3.
+      Now, in the \"Audio Mixer Master Controller\" script of \"MASTER MIXER WALKABLE\",
+      add to the \"Audio Mixer\" the Master/Main Audio Mixer of the project..\n\n\t2.4.
+      In \"Exposed Parameter\" write the exact name of the exposed parameter you
+      created.\n\n\t2.5. For the \"Fade Duration\" section, set it to the desired
+      time, but it is recomended 1,5s."
+    linkText: 
+    url: 
+  - name: Header -3. CUSTOM...
+    heading: 3. CUSTOM EVENTS
+    text: "\t3.1. There're 2 Custom Events for the walkable areas by default:\n\n\t\t-
+      LEFT WALKABLE AREA: It indicates when the user leaves the WalkableArea collider\n\t\t-
+      TIMER WALKABLE AREA: It indicates when the user exceeded the time expected
+      for that state to be in by not moving on to the next one.\n\n\t3.2. For each
+      Custom Event, in the \"Custom Event Launcher\" script, change the \"Event Name\"
+      text by replacing the [STATE] with the state's name or the one desired."
+    linkText: 
+    url: 
+  - name: Header -4. ALTERN...
+    heading: '4. ALTERNATE CONTENT_[STATE]'
+    text: "\t4.1. In the \"Alternate Content\" script, add to the \"Content\" parameter
+      the \"CONTENT\" game object, then it will be renamed to \"[AlternateContent]
+      CONTENT\".\n\n\t4.2. For the \"Fade Config\", if you don't have one, you need
+      to create it by right clicking in a \"Project\" window > Create > XRoam > Camera
+      > Fade Configuration. Same with the \"Alternate Content Config\".\n\n\t4.3.
+      The Fade Configuration recomended settings are:\n\n\t\t- Fade In Seconds: 1\n\t\t-
+      Faded Seconds: 0.2\n\t\t- Fade Out Seconds: 1\n\t\t- Color: Black\n\n\t4.4.
+      For the Alternate Content Configuration settings:\n\n\t\t- Priority: 0\n\t\t-
+      Overlay: ON\n\t\t- Background Color: Black\n\n\t4.5. After setting these configurations,
+      add them to the \"Alternate Content\" script in \"ALTERNATE CONTENT_[STATE]\"
+      in their respective parameters.\n\n\t4.6. Change the Layer for the \"[AlternateContent]
+      CONTENT\" game object and everything inside to \"XROAM_ALTERNATE_CONTENT\".\n\n\t4.7.
+      The \"VISUAL\" gameobject is a PolyLine that uses de \"Shapes\" package. It
+      is used to limit the walkable area with points connected drawing lines. You
+      can add more points with tifferent positions and colors to adjust to your walkable
+      area and liking.\n\n\t4.8. You can add anything you want to see while in the
+      alternate content inside the \"[AlternateContent] CONTENT\", but make sure
+      its on the \"XROAM_ALTERNATE_CONTENT\" Layer."
+    linkText: 
+    url: 
+  - name: Header -5. Walkab...
+    heading: '5. WalkableArea_[STATE]'
+    text: "\t5.1. Adjust the WalkableArea Collider or the Transform to adapt it to
+      the desired dimensions.\n\n\t5.2. In the \"Walkable Area\" script, add the
+      \"ALTERNATE CONTENT_[STATE]\" to the \"Alternate Content\" parameter.\n\n\t5.3.
+      Add one \"On Enter Actions\" and insert the \"MASTER MIXER WALKABLE\" gameobject.
+      Set the function to \"AudioMixerMasterController.FadeToVolume\" and set it
+      to 0.\n\n\t5.4. On the \"On Exit Actions\" add 2.\n\n\t\t- In one add the \"LEFT
+      WALKABLE AREA\" Custom Event and set it to \"CustomEventLauncher.Trigger\"\n\n\t\t-
+      In the other one add again the \"MASTER MIXER WALKABLE\" gameobject with the
+      same function as on the Enter actions and set it to -12.\n\n\t5.5. If you need
+      more than one collider (because of the dimensions/path) you have make it child
+      of the first one and it must only have the box collider with bool IsTrigger
+      enabled and the collider gizmo components."
+    linkText: 
+    url: 
+  - name: Header -6. STATE ...
+    heading: '6. STATE TIMER_[STATE]'
+    text: "ONLY USE THIS IF YOU NEED/WANT A TIMER, IT IS NOT NECESSARY FOR EVERY
+      STATE.\n\n\t6.1. In the \"State Timer\" script, you need to add in the \"State\"
+      parameter the State Machine Preset of the project and then, on the right, the
+      State you want to start the timer on.\n\n\t6.2. The \"Delay\" parameter is
+      the maximum time you want the user to spend in one state.\n\n\t6.3. On the
+      \"On Finished\" section, you have to add 3 gameobjects with these functions:\n\n\t\t-
+      ALTERNATE CONTENT_[STATE]: AlternateContent.EnableContent\n\t\t- TIMER WALKABLE
+      AREA: CustomEventLauncher.Trigger\n\t\t- MASTER MIXER WALKABLE: AudioMixerMasterController.FadeVolume\n\t\t\t\t\t\t\t
+      Set the volume to -12\n\t6.4. And on the \"On Disabled\" add 1:\n\n\t\t- MASTER
+      MIXER WALKABLE: AudioMixerMasterController.FadeVolume\n\t\t\t\t\t\t\t Set the
+      volume to 0"
+    linkText: 
+    url: 
+  - name: Header -TIPS AND ...
+    heading: TIPS AND TRICKS
+    text: "It is recomended to:\n\n- Set one entire state activator and timer with
+      everything and then duplicate.\n\n- If there're similar rooms in dimension,
+      set those up and then duplicate them for the other similar dimension states
+      to avoid extra work setting the walkable area visuals and colliders.\n\nIf
+      the alternate content it is not showing up in the Game window but it is in
+      the Scene one:\n\n\t- Check the order of the \"Stack\" in the \"Main Camera\"
+      of the custom rig, it should be like:\n\n\t\t1. Overlay Camera\n\t\t2. Alternate
+      Content\n\t\t3. Fade Camera\n\t\t4. Guardian Camera\n\t\t5. OTHERS\n\n\t- Make
+      sure the \"Priority\" of the Alternate Content Configuration is higher than
+      the alternate content for it to be rendered behind the desired content and
+      the \"Overlay\" is checked.\n\n\t- The alternate content group and objects
+      inside have to be on the \"XROAM_ALTERNATE_CONTENT\" layer.\n\n\t- Reimport
+      the \"Shapes\" package\n\n\t- If working with URP, make sure that in the URP
+      Renderer Data there's a \"Shapes Renderer Feature\", if not add it."
+    linkText: 
+    url: 
+  isRoot: 0
