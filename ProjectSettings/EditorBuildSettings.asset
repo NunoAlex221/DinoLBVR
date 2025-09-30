@@ -5,72 +5,48 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.1_MultiRoom_Overlay_Onboarding.unity
-    guid: 4f6642ddc28041a4f877faa3f272b2ec
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.2_MultiRoom_Overlay_Room_1.unity
-    guid: 4d0e4a34a79cd034f8896e5e9c1c1853
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.3_MultiRoom_Overlay_Room_2.unity
-    guid: 7cb9f594af1ba4c4eaee7a5d97873715
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.4_MultiRoom_Overlay_Room_3.unity
-    guid: db2bb5222ca1e7f43b463958aec1210b
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.5_MultiRoom_Overlay_Room_4.unity
-    guid: 3b8ed6e68052d0847b4fedf9046dfecf
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.6_MultiRoom_Overlay_Room_5.unity
-    guid: 098c6d519f9a876498fb1e23c5ceb282
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.7_MultiRoom_Overlay_Room_6.unity
-    guid: f1827a1fe72074043862481f5c97b19b
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.8_MultiRoom_Overlay_Room_7.unity
-    guid: 3fd32a7cfc47c5940b9c53eda91d0659
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.9_MultiRoom_Overlay_Room_8.unity
-    guid: 971fc2b495073a54898fee98401e374f
-  - enabled: 0
-    path: Assets/00_Sample_Scenes/01_Scenes/2.0_MultiRoom_Overlay/2.10_MultiRoom_Overlay_Offboarding.unity
-    guid: f827b7c32df6a7140a3658a263beae74
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/IvoTestScene.unity
+    path: Assets/Scenes/DinoTestScenes/00_MainScene.unity
     guid: 0848b23d8b8027e4b86b4f5b7b2418ed
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_Onboard.unity
+    path: Assets/Scenes/DinoTestScenes/01_Dino_Onboard.unity
     guid: e665cfdea3fbbb242bdb1297ac9278db
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_DiggingSite.unity
+    path: Assets/Scenes/DinoTestScenes/02_Dino_DiggingSite.unity
     guid: 4263a1b72ed1431458dea9e78661ad0e
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_ExteriorSite.unity
+    path: Assets/Scenes/DinoTestScenes/03_Dino_ExteriorSite.unity
     guid: dcdb323f0f4718b49a08f8de05c6f016
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_BlackTransition.unity
+    path: Assets/Scenes/DinoTestScenes/04_Dino_BlackTransition.unity
     guid: 25b5354c8ef1a904b8b9a9d5b4dc84a4
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_Bridge.unity
+    path: Assets/Scenes/DinoTestScenes/05_Dino_Bridge.unity
     guid: d55b01f44de446e42aec8753de4dc9e0
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_Rex.unity
+    path: Assets/Scenes/DinoTestScenes/06_Dino_Rex.unity
     guid: 4df7524c6da5be7488da6f8d89509e10
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_SkyFlight.unity
+    path: Assets/Scenes/DinoTestScenes/07_Dino_Jungle_Cave.unity
+    guid: bec938c19e211474d8c4012bed536527
+  - enabled: 1
+    path: Assets/Scenes/DinoTestScenes/08_Dino_SkyFlight.unity
     guid: 3333dfd0b99efa84d803217cb0ab92c1
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_DeepOcean.unity
+    path: Assets/Scenes/DinoTestScenes/09_Dino_DeepOcean.unity
     guid: 96e43130cd0b60b49814c2280eebb0a1
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_DiggingSite2.unity
+    path: Assets/Scenes/DinoTestScenes/10_Dino_BlackTransition.unity
+    guid: 6beb812aa920cfe4f9606b1daad75793
+  - enabled: 1
+    path: Assets/Scenes/DinoTestScenes/11_Dino_DiggingSite2.unity
     guid: ad9bb46bdfeda0f47a1789b9a45995b5
   - enabled: 1
-    path: Assets/Scenes/DinoTestScenes/Dino_Offboarding.unity
+    path: Assets/Scenes/DinoTestScenes/12_Dino_Offboarding.unity
     guid: 87259ade361ba6448965442e97ac1aa9
+  - enabled: 1
+    path: Assets/Scenes/DinoTestScenes/05_Dino_Tree.unity
+    guid: f24dfa855cadd4e48881408c8812a3b8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 55b6d39ace841f6429d0ca377f453e99, type: 2}
