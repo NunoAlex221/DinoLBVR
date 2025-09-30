@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: c9028d63-eea4-4568-b051-cc79d2f61037
   _name: BlackRoom
-  _mainScene: Assets/Scenes/DinoTestScenes/IvoTestScene.unity
-  _exposed: 1
+  _mainScene: Assets/Scenes/DinoTestScenes/00_MainScene.unity
+  _exposed: 0
   _exposedName: Exterior Site_1
   _scenesToLoad:
-  - Assets/Scenes/DinoTestScenes/Dino_BlackTransition.unity
+  - Assets/Scenes/DinoTestScenes/04_Dino_BlackTransition.unity
+  - Assets/Scenes/DinoTestScenes/05_Dino_Bridge.unity
+  - Assets/Scenes/DinoTestScenes/05_Dino_Tree.unity
   _stateActions: []

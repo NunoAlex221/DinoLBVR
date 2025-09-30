@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
-  m_Name: Exterior Site
+  m_Name: Onboarding + Digging Site
   m_EditorClassIdentifier: 
-  _id: 1f67e93c-626f-4d70-90e6-24b1cf0bc914
-  _name: Exterior Site
+  _id: fd776781-ae02-43ee-bbc1-ee8542fe2d74
+  _name: Onboarding + Digging Site
   _mainScene: Assets/Scenes/DinoTestScenes/00_MainScene.unity
   _exposed: 0
-  _exposedName: Exterior Site
+  _exposedName: Onboarding
   _scenesToLoad:
+  - Assets/Scenes/DinoTestScenes/01_Dino_Onboard.unity
   - Assets/Scenes/DinoTestScenes/02_Dino_DiggingSite.unity
   - Assets/Scenes/DinoTestScenes/03_Dino_ExteriorSite.unity
   _stateActions: []
