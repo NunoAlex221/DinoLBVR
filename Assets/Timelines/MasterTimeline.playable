@@ -1513,6 +1513,25 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
+--- !u!114 &-4358221371654270099
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  ambientColor: {r: 0.81886786, g: 0.77449286, b: 0.6597294, a: 1}
+  ambientMode: 0
+  fog: 1
+  fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
+  fogMode: 2
+  fogDensity: 0.015
 --- !u!114 &-2551605418651452729
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1770,6 +1789,7 @@ MonoBehaviour:
   - {fileID: 2636950321285269522}
   - {fileID: -7468042394938527734}
   - {fileID: 6552641606589454390}
+  - {fileID: 4780974452702939109}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -2071,6 +2091,25 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
+--- !u!114 &1240405967687733774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 2100000, guid: 2e21d290eca4c3e46b03577a2ecc0d2b, type: 2}
+  ambientColor: {r: 0.47258806, g: 0.74759984, b: 0.8490566, a: 1}
+  ambientMode: 0
+  fog: 1
+  fogColor: {r: 0.07351366, g: 0.3345934, b: 0.6603774, a: 1}
+  fogMode: 2
+  fogDensity: 0.2
 --- !u!114 &1820865391487249378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2344,6 +2383,167 @@ MonoBehaviour:
   - {fileID: -957810721449914937}
   - {fileID: 6795554468510564744}
   m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &4780974452702939109
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128ddf30a53bc444180ddf4951381d57, type: 3}
+  m_Name: Environment Dino
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 237.92499999999964
+    m_ClipIn: 0
+    m_Asset: {fileID: 1240405967687733774}
+    m_Duration: 95.07500000000036
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Environment Underwater Clip
+  - m_Version: 1
+    m_Start: 333
+    m_ClipIn: 0
+    m_Asset: {fileID: -4358221371654270099}
+    m_Duration: 65.01666666666665
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: EnvironmentClip
   m_Markers:
     m_Objects: []
 --- !u!114 &5335186997140017452
