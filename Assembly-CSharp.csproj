@@ -68,6 +68,7 @@
     <Compile Include="Assets\Script\PortalSequence.cs" />
     <Compile Include="Assets\00_PROJECT\02_MISC\UnityReadme-main\Readme\Scripts\ReadmeBehaviour.cs" />
     <Compile Include="Assets\Script\StartBehaviour.cs" />
+    <Compile Include="Assets\Missing Reference Finder\MissingReferenceFinder.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\GlowBlink.cs" />
     <Compile Include="Assets\00_PROJECT\01_GENERICS\01_PREFABS\AudioMixerMasterController.cs" />
@@ -1168,12 +1169,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualEffectGraph.Editor">
