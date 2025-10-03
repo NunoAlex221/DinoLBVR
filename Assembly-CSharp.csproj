@@ -61,35 +61,51 @@
     <Analyzer Include="E:\DinoLBVR\Library\PackageCache\com.firstgeargames.fishnet@87d5562f9b1f\Runtime\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Oviraptor\Ovi.cs" />
     <Compile Include="Assets\Script\InteractableObject.cs" />
     <Compile Include="Assets\ART\MODELS\PureNature\Scripts\WaterReflection.cs" />
     <Compile Include="Assets\ART\MODELS\PureNature\Scripts\CloudsVolume.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\CreaturesShared\sharedScript\Manager.cs" />
     <Compile Include="Assets\Script\TentDoors.cs" />
     <Compile Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Scripts\TF_FFE_WindController.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\CreaturesShared\sharedScript\Creature.cs" />
     <Compile Include="Assets\Script\PortalSphere.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\SceneFx\water\JPWater.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\SpawnObjectsInstanced.cs" />
     <Compile Include="Assets\Script\HintArrow.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Brachiosaurus\Brach.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Tyrannosaurus Rex\Rex.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Spinosaurus\Spino.cs" />
     <Compile Include="Assets\Script\PortalSequence.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Compsognathus\Comp.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\SunBillboard.cs" />
     <Compile Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Scripts\TexturePan.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Ankylosaurus\Anky.cs" />
     <Compile Include="Assets\ART\MODELS\BK\Pure_Common\Scripts\BK_GodraysController.cs" />
     <Compile Include="Assets\ART\MODELS\BK\Pure_Common\Scripts\BK_FreeCamera.cs" />
     <Compile Include="Assets\00_PROJECT\02_MISC\UnityReadme-main\Readme\Scripts\ReadmeBehaviour.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Triceratops\Tric.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\HierarchicalRockSpawner.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\GlobalShaderController.cs" />
     <Compile Include="Assets\Script\StartBehaviour.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\SmoothCameraController.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Parasaurolophus\Para.cs" />
     <Compile Include="Assets\Missing Reference Finder\MissingReferenceFinder.cs" />
     <Compile Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\URPWorldLightingController.cs" />
     <Compile Include="Assets\ART\MODELS\BK\Pure_Common\Scripts\BK_EnvironmentManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\GlowBlink.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Pteranodon\Ptera.cs" />
     <Compile Include="Assets\00_PROJECT\01_GENERICS\01_PREFABS\AudioMixerMasterController.cs" />
     <Compile Include="Assets\Script\BaseTextureAdd.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Dimetrodon\Dime.cs" />
     <Compile Include="Assets\ART\MODELS\PureNature\Scripts\EnvironmentManager.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Velociraptor\Rap.cs" />
     <Compile Include="Assets\ART\MODELS\PureNature\Scripts\FreeCamera.cs" />
     <Compile Include="Assets\Script\TreeDoor.cs" />
     <Compile Include="Assets\ART\MODELS\BK\Pure_Common\Scripts\BK_TerrainParticleFollow.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Stegosaurus\Steg.cs" />
+    <Compile Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\Creatures\VOLI\Dilophosaurus\Dilo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\TreeTrunkWind.hlsl" />
@@ -98,6 +114,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Shaders\Water.shader" />
+    <None Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\SceneFx\particles\JPparticles.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\Billboards.shader" />
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\RotateAndMoveUVs.hlsl" />
@@ -119,6 +136,7 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\SceneFx\water\JPWater.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
