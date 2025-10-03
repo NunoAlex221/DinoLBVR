@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Flowers_Flat
+  m_Shader: {fileID: -6465566751694194690, guid: 4117cd896e709a847841be2013d786ea, type: 3}
+  m_Parent: {fileID: 2100000, guid: 07fb4894238754d4287bc111eed3a63f, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Alpha_Clip: 0.07
+    - _Alpha_Clip_In_The_Distance: 1
+    - _Bottom_Color_Strength: 0
+    - _CastShadows: 1
+    - _Change_Color_In_The_Distance: 0
+    - _ColorBreakupBlend: 0.519
+    - _ColorBreakupStrength: 0
+    - _Color_Strength: 0
+    - _Distant_Fade: 1
+    - _Dry_Grass_Smoothness: 0.199
+    - _Fresnel: 0
+    - _Global_Wind_Strength: 0.55
+    - _Grass_Dry_Opacity: 0
+    - _Grass_Healthy_Opacity: 0
+    - _HUE_Offset: 73.61
+    - _Smoothness: 0.437
+    - _Tip_Color_Strength: 0
+    - _Use_Single_Colors: 1
+    - _Use_Translucensy: 0
+    m_Colors:
+    - _Grass_Dry: {r: 1, g: 0.099658355, b: 0, a: 0}
+    - _Grass_Healthy: {r: 0, g: 0.61111116, b: 1, a: 0}
+    - _Near_Far_Range: {r: 70, g: 160, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8653349864230324492
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

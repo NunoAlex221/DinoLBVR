@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fir Bark
+  m_Shader: {fileID: -6465566751694194690, guid: 234e24b42993f9b42bb418589a4959f3, type: 3}
+  m_Parent: {fileID: 2100000, guid: 83d0bfa6445e5704ebbf3c4b1a353d9a, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 3cb0c712e6fea2c42a20c27b1d4e0e21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metalic_Smoothness:
+        m_Texture: {fileID: 2800000, guid: f9f26ea014808db4aa48b81eee0dd7e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Difuse:
+        m_Texture: {fileID: 2800000, guid: 1a28e7515f9f468429588bb4fa6aad05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Metalic_Smoothness:
+        m_Texture: {fileID: 2800000, guid: 479d00e1a2aaff446bab0e7b19f9e208, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 30631678d7f1a7641bf60c98e10c60f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: e3fe6f65ecca1b4419d71844572c4aa3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _TrunkCurvature: 0.101
+    - _WindStrength: 1
+    - _Wind_Strength: 0.3
+    m_Colors:
+    - _GradientTopToBottom: {r: 0, g: 22, b: 0, a: 0}
+    - _Gradient_Top_to_Bottom: {r: 0, g: 16, b: 0, a: 0}
+    - _Moss_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 1.4, g: 1.4, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &788832635358512383
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
