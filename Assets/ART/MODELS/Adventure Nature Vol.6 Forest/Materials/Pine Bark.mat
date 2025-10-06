@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1016601118831436498
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pine Bark
+  m_Shader: {fileID: -6465566751694194690, guid: 234e24b42993f9b42bb418589a4959f3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Detail_Normal:
+        m_Texture: {fileID: 2800000, guid: 00890361f2b11324dba49f2deea4f935, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 80ebe73838e0e0f48baa2dcd446b160b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metalic_Smoothness:
+        m_Texture: {fileID: 2800000, guid: 8a81d9e0f061dd2458efe0f3938c3787, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Difuse:
+        m_Texture: {fileID: 2800000, guid: 1a28e7515f9f468429588bb4fa6aad05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Metalic_Smoothness:
+        m_Texture: {fileID: 2800000, guid: 479d00e1a2aaff446bab0e7b19f9e208, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 30631678d7f1a7641bf60c98e10c60f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: b7533121797cbb442a864c9950fd7e13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 0.35
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
+    - _Curvature: 0.1
+    - _Detail_Normal_Strength: 0.2
+    - _DstBlend: 0
+    - _Float: 30.88
+    - _Height_Blend_Contrast: 22
+    - _Height_Multiply: 0.6
+    - _Max: 3.8
+    - _Min: -5
+    - _Moss_Normal_Map_Strength: 1
+    - _Noise_Scale: 0.1
+    - _Normal_Map_Strength: 1
+    - _Object_Height_Offset: 0.6
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Speed: 1
+    - _SrcBlend: 1
+    - _Strength: 1
+    - _Surface: 0
+    - _Trung_Height: 4.73
+    - _TrunkCurvature: 0.223
+    - _Trunk_Curvature: 0.1
+    - _WindSpeed: 1
+    - _WindStrength: 1
+    - _Wind_Speed: 0.228
+    - _Wind_Strength: 0.3
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    - _max: -1.9
+    - _min: 1.27
+    m_Colors:
+    - _DetailNormal_Tiling: {r: 11, g: 11, b: 0, a: 0}
+    - _GradientTopToBottom: {r: 0, g: 22, b: 0, a: 0}
+    - _Gradient_Top_to_Bottom: {r: 0, g: 22, b: 0, a: 0}
+    - _Moss_Tiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Tiling: {r: 16, g: 8, b: 0, a: 0}
+    - _Vector2: {r: 13.64, g: -124.2, b: 0, a: 0}
+    - _Vector3: {r: 1, g: 1, b: 1, a: 0}
+    - _Vector3_1: {r: 1, g: 0, b: 1, a: 0}
+    - _Wind_Direction: {r: 1, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

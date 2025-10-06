@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Flowers_Tall
+  m_Shader: {fileID: -6465566751694194690, guid: 4117cd896e709a847841be2013d786ea, type: 3}
+  m_Parent: {fileID: 2100000, guid: 07fb4894238754d4287bc111eed3a63f, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - SHADOWCASTER
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Alpha_Clip: 0.269
+    - _Alpha_Clip_In_The_Distance: 1
+    - _Bottom_Color_Strength: 1
+    - _CastShadows: 0
+    - _ColorBreakupBlend: 0.071
+    - _ColorBreakupStrength: 0
+    - _Color_Strength: 0
+    - _Curvature: 0
+    - _Dry_Grass_Smoothness: 0.39
+    - _Fresnel: 1
+    - _Fresnel_Power: 15.2
+    - _Fresnel_Strength: 0.1
+    - _Grass_Dry_Opacity: 0.248
+    - _Grass_Healthy_Opacity: 0.248
+    - _HUE_Offset: 3.96
+    - _Normal_Strength: 0.16
+    - _Overall_HUE: 0
+    - _Point_Normals_Up: 1
+    - _Point_Normals_Up_Strength: 0.93
+    - _Recalculate_Normals: 0
+    - _Recalculate_Tangent: 0
+    - _Recalculated_Normals_Strenght: 0.538
+    - _Side_To_side_Medium_Wind_Strength: 90
+    - _Small_Wind_Strength: 0.142
+    - _Smoothness: 0.729
+    - _Smoothness_In_Shade: 0.46
+    - _Thickness: 3
+    - _Tip_Color_Strength: 1
+    - _Use_Single_Colors: 1
+    - _Use_Translucensy: 1
+    m_Colors:
+    - _Bend_Min_Max: {r: 10, g: 20, b: 0, a: 0}
+    - _Bottom_Color_Gradient_Remap: {r: 6, g: 12, b: 0, a: 0}
+    - _Color_Tip: {r: 1, g: 0.87153304, b: 0.2245282, a: 0}
+    - _Grass_Dry: {r: 0, g: 0.592783, b: 1, a: 0}
+    - _Grass_Healthy: {r: 0, g: 1, b: 0.46359348, a: 0}
+    - _Tip_Color_Gradient_Remap: {r: 1.3, g: 2, b: 0, a: 0}
+    - _Translucensy_Color: {r: 1, g: 0.56099325, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3261174477625805337
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
