@@ -13,6 +13,8 @@ public class InteractableObject : MonoBehaviour
     Transform playerHead;
     bool shouldShow = false;
 
+    [SerializeField] Animator anim;
+
     void Start()
     {
         if (iconGroup != null)
@@ -53,6 +55,14 @@ public class InteractableObject : MonoBehaviour
         // If the player is directly above/below, ignore to avoid NaN
         if (lookDir.sqrMagnitude > 0.001f)
             iconGroup.transform.rotation = Quaternion.LookRotation(lookDir);
+    }
+
+    public void PlayAnimation()
+    {
+        if(anim != null)
+        {
+            anim.SetBool("TRIGGER", !anim.GetBool("TRIGGER"));
+        }
     }
 }
 
