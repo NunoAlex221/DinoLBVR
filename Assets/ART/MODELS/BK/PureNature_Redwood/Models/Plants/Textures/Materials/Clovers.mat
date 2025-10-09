@@ -11,9 +11,9 @@ Material:
   m_Shader: {fileID: 4800000, guid: 947355c823b272d489f36561db5960f5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _NOISEWORLDSPACEUVS_ON
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -121,6 +121,7 @@ Material:
     - _TransShadow: 0.5
     - _Translucency: 1
     - _UVSec: 0
+    - _WindDebugView: 0
     - _WindMultiplier: 0.1
     - _ZWrite: 1
     - __dirty: 1
@@ -130,3 +131,4 @@ Material:
     - _Color02: {r: 0.35286334, g: 0.4716981, b: 0.12311615, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
