@@ -123,12 +123,16 @@
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_VegetationTrunk.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Impostor.shader" />
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Documentation.txt" />
+    <None Include="Assets\ART\MODELS\MeshBaker\Resources\Shaders\AlbedoShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\ART\MODELS\MeshBaker\Release Notes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\ART\MODELS\Amazing Assets\Advanced Dissolve\Installer\ReadMe.txt" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\Water.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\GrassMesh.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\StandardLayer_ObjectSpace.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\ART\MODELS\MeshBaker\Resources\Shaders\UnlitWithAlpha.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\StandardLayer.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\WaterFall.shader" />
     <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
@@ -150,14 +154,18 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\Clouds.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\VegetationTrunk.shader" />
+    <None Include="Assets\ART\MODELS\MeshBaker\Resources\Shaders\NormalMapShaderSwizzle.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_StandardLayer.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Water.shader" />
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\RecalculateNormals.hlsl" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Clouds.shader" />
+    <None Include="Assets\ART\MODELS\MeshBaker\MeshBakerWorkingFolder\DONT_DELETE.txt" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_StandardLayer_Mask.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Grass.shader" />
     <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
+    <None Include="Assets\ART\MODELS\MeshBaker\README.txt" />
+    <None Include="Assets\ART\MODELS\MeshBaker\Resources\Shaders\NormalMapShader.shader" />
     <None Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Shaders\FFTreeBillboard.shader" />
     <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -1582,6 +1590,10 @@
       <Project>{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}</Project>
       <Name>PICO.Platform.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="MeshBakerEditor.csproj">
+      <Project>{2D41C887-C8FE-58DA-170A-EB23EA908432}</Project>
+      <Name>MeshBakerEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Tayx.Graphy.csproj">
       <Project>{E648316F-3088-6FAD-5EBB-DC7A7D156036}</Project>
       <Name>Tayx.Graphy</Name>
@@ -1593,6 +1605,14 @@
     <ProjectReference Include="Unity.XR.OpenXR.Features.PICOSupport.csproj">
       <Project>{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}</Project>
       <Name>Unity.XR.OpenXR.Features.PICOSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerCore.csproj">
+      <Project>{25FA6A80-504A-55A3-709C-47359F178523}</Project>
+      <Name>MeshBakerCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerExamples.csproj">
+      <Project>{B6C46A01-48E9-1013-1E77-ECD89F44D746}</Project>
+      <Name>MeshBakerExamples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXRPico.csproj">
       <Project>{F9D08A84-A07B-4BDA-262D-3CF4A1B5A798}</Project>
