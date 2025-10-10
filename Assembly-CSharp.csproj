@@ -118,6 +118,7 @@
     <None Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Shaders\Water.shader" />
     <None Include="Assets\ART\MODELS\DINOSSAUROS\Jurassic Pack\SceneFx\particles\JPparticles.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Changelog.txt" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\Billboards.shader" />
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\RotateAndMoveUVs.hlsl" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_VegetationTrunk.shader" />
@@ -131,8 +132,10 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\StandardLayer.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\WaterFall.shader" />
+    <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_WaterFall.shader" />
+    <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
     <None Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Shaders\TreeWind2.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -155,7 +158,9 @@
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Clouds.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_StandardLayer_Mask.shader" />
     <None Include="Assets\ART\MODELS\BK\Pure_Common\Shaders\BK_Grass.shader" />
+    <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
     <None Include="Assets\ART\MODELS\TriForge Assets\Fantasy Forest Environment\Shaders\FFTreeBillboard.shader" />
+    <None Include="Assets\ART\MODELS\z_Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\ART\MODELS\PureNature\Shaders\GrassTerrain.shader" />
     <None Include="Assets\ART\MODELS\Adventure Nature Vol.6 Forest\Scripts\ShadowAttenuation.hlsl" />
@@ -1546,9 +1551,17 @@
       <Project>{041B5FBB-1910-D8A3-A17A-F1A16DA2346B}</Project>
       <Name>XRoam.SDK.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.csproj">
+      <Project>{E648316F-3088-6FAD-5EBB-DC7A7D156036}</Project>
+      <Name>Tayx.Graphy</Name>
+    </ProjectReference>
     <ProjectReference Include="XRoam.SDK.csproj">
       <Project>{5FC94919-D517-EEE4-0E74-0A956A202DFE}</Project>
       <Name>XRoam.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.Editor.csproj">
+      <Project>{C2A78ACE-8B4D-2785-ECAA-93FF698B7D75}</Project>
+      <Name>Tayx.Graphy.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.PICOSupport.csproj">
       <Project>{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}</Project>
