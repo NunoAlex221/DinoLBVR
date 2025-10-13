@@ -1532,6 +1532,10 @@
       <Project>{9F03B4D5-87E4-47E3-4A4F-7E6540EBE0E7}</Project>
       <Name>PICO.Platform.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="MeshBakerEditor.csproj">
+      <Project>{2D41C887-C8FE-58DA-170A-EB23EA908432}</Project>
+      <Name>MeshBakerEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="XRoam.SDK.Editor.csproj">
       <Project>{041B5FBB-1910-D8A3-A17A-F1A16DA2346B}</Project>
       <Name>XRoam.SDK.Editor</Name>
@@ -1552,6 +1556,10 @@
       <Project>{D4BB80BD-8F9D-C399-810D-D00B4A2999F5}</Project>
       <Name>Unity.XR.OpenXR.Features.PICOSupport</Name>
     </ProjectReference>
+    <ProjectReference Include="MeshBakerCore.csproj">
+      <Project>{25FA6A80-504A-55A3-709C-47359F178523}</Project>
+      <Name>MeshBakerCore</Name>
+    </ProjectReference>
     <ProjectReference Include="XRoam.Installer.csproj">
       <Project>{867EE5A7-3E26-6EA0-5756-CCF1DC34D28A}</Project>
       <Name>XRoam.Installer</Name>
@@ -1567,6 +1575,10 @@
     <ProjectReference Include="FishNet.Runtime.csproj">
       <Project>{E43033DE-6DB5-9DEA-3D8E-0F5FF822AC98}</Project>
       <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerExamples.csproj">
+      <Project>{B6C46A01-48E9-1013-1E77-ECD89F44D746}</Project>
+      <Name>MeshBakerExamples</Name>
     </ProjectReference>
     <ProjectReference Include="XRoam.SDK.VIVE.csproj">
       <Project>{87D57C96-A019-6075-9487-7321CA2DD58B}</Project>
