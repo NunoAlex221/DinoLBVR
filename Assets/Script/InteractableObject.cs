@@ -64,5 +64,7 @@ public class InteractableObject : MonoBehaviour
             anim.SetBool("TRIGGER", !anim.GetBool("TRIGGER"));
         }
     }
+
+    
 }
 
