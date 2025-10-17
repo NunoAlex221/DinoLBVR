@@ -42,15 +42,23 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Alpha_Clip: 0.227
+    - _Alpha_Clip: 0.727
+    - _Alpha_Clip_In_The_Distance: 1
     - _Bottom_Color_Strength: 1
     - _CastShadows: 0
     - _Color_Strength: 1
     - _Global_Wind_Strength: 0.533
+    - _Normal_Strength: 0.561
+    - _Point_Normals_Up: 1
+    - _Recalculate_Normals: 1
+    - _Recalculate_Tangent: 1
     - _Tip_Color_Strength: 0.446
     - _Use_Vertex_Colors_For_Wind: 1
     m_Colors:
-    - _Color: {r: 0.34204477, g: 0.690566, b: 0.1863225, a: 1}
-    - _Color_Bottom: {r: 0.45827428, g: 0.7283019, b: 0.3339195, a: 1}
+    - _Color: {r: 0.35110775, g: 0.41509432, b: 0.32306868, a: 1}
+    - _Color_Bottom: {r: 0.24817552, g: 0.3679245, b: 0.19263972, a: 1}
+    - _Color_In_The_Distance: {r: 0.29587933, g: 0.5754717, b: 0.30386767, a: 1}
+    - _FresnelColor: {r: 0.09829987, g: 0.509434, b: 0.03604485, a: 0}
+    - _Specular: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
