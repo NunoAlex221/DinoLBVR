@@ -1491,6 +1491,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
+--- !u!114 &-5923201371953599152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  ambientColor: {r: 0.6509804, g: 0.3921569, b: 0.15294118, a: 1}
+  ambientMode: 0
+  fog: 0
+  fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
+  fogMode: 2
+  fogDensity: 0.015
 --- !u!114 &-4826664047721934321
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1526,7 +1545,26 @@ MonoBehaviour:
   m_Name: EnvironmentClip(Clone)
   m_EditorClassIdentifier: 
   skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  ambientColor: {r: 0.81886786, g: 0.77449286, b: 0.6597294, a: 1}
+  ambientColor: {r: 0.6509804, g: 0.3921569, b: 0.15294118, a: 1}
+  ambientMode: 0
+  fog: 0
+  fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
+  fogMode: 2
+  fogDensity: 0.015
+--- !u!114 &-3827172008896800091
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  ambientColor: {r: 0.6509804, g: 0.3921569, b: 0.15294118, a: 1}
   ambientMode: 0
   fog: 0
   fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
@@ -2359,6 +2397,44 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
+--- !u!114 &3507616128577513476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  ambientColor: {r: 0.6509804, g: 0.3921569, b: 0.15294118, a: 1}
+  ambientMode: 0
+  fog: 0
+  fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
+  fogMode: 2
+  fogDensity: 0.015
+--- !u!114 &4500649060018055350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  ambientColor: {r: 0.6509804, g: 0.3921569, b: 0.15294118, a: 1}
+  ambientMode: 0
+  fog: 0
+  fogColor: {r: 0.30277675, g: 0.6603774, b: 0.37806106, a: 1}
+  fogMode: 2
+  fogDensity: 0.015
 --- !u!114 &4690650617084602868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2419,49 +2495,13 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2476,10 +2516,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Environment Underwater Clip
   - m_Version: 1
-    m_Start: 303
+    m_Start: 308.01666666666665
     m_ClipIn: 0
     m_Asset: {fileID: -4358221371654270099}
-    m_Duration: 65.01666666666665
+    m_Duration: 60
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4780974452702939109}
     m_EaseInDuration: 0
@@ -2488,49 +2528,13 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2543,7 +2547,139 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: EnvironmentClip
+    m_DisplayName: Environment Digging SiteClip
+  - m_Version: 1
+    m_Start: 1
+    m_ClipIn: 0
+    m_Asset: {fileID: 4500649060018055350}
+    m_Duration: 43
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Environment Digging SiteClip
+  - m_Version: 1
+    m_Start: 44
+    m_ClipIn: 0
+    m_Asset: {fileID: -3827172008896800091}
+    m_Duration: 35
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Environment Exterior Site Clip
+  - m_Version: 1
+    m_Start: 84
+    m_ClipIn: 0
+    m_Asset: {fileID: 3507616128577513476}
+    m_Duration: 14
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Environment Jungle Clip
+  - m_Version: 1
+    m_Start: 98
+    m_ClipIn: 0
+    m_Asset: {fileID: -5923201371953599152}
+    m_Duration: 80
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4780974452702939109}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Environment Cliff Clip
   m_Markers:
     m_Objects: []
 --- !u!114 &5335186997140017452
